@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const images = document.querySelectorAll("img");
+    const images = document.querySelectorAll("img.random");
 
     for(const image of images){
         console.log(image)
