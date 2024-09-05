@@ -2,7 +2,11 @@ body{
     font-family: helvetica, Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 1.72vw;
+    background-color: rgb(194, 193, 193);
+}
 
+html{
+    scroll-behavior: smooth;
 }
 #logo{
     margin-right: 400px;
@@ -46,6 +50,7 @@ body > header > nav > ul{
     border: 1px solid white;
     border-radius: 30%;
     background-color: rgb(255, 140, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 body > main article {
     width: 80%;
@@ -58,11 +63,23 @@ body > main article {
 #main-content > div{
     width: 70%;
 }
-form{
-    text-align: center;
-}
+
 h2{
     text-align: center;
+}
+#pic-place{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+article > img{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 35%;
+    border: 5px solid black;
+    
 }
 
 body > footer{
@@ -86,6 +103,15 @@ body > footer{
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
+}
+form{
+    text-align: center;
+    background-color: rgb(191, 189, 189);
     
- 
+
+}
+#newsletter-title{
+    background-color: rgb(191, 189, 189);
+    height: 100px;
+    
 }
