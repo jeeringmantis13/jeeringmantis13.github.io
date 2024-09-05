@@ -56,6 +56,15 @@ body > main article {
     width: 80%;
     margin: auto;
 }
+#guitar-pic{
+    width: 30vw;
+    height: 150vh;
+    border-radius: 15%;
+    display: flex;
+    align-items: left;
+    margin-top: 160vh;
+    
+}
 #main-content{
     display: flex;
     justify-content: space-around;
