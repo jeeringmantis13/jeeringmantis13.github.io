@@ -2,7 +2,7 @@ body{
     font-family: helvetica, Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 1.72vw;
-    background-color: rgb(194, 193, 193);
+    background-color: rgba(228, 225, 237, 0.957);
 }
 
 html{
@@ -14,7 +14,7 @@ html{
     font-family: "Fredoka One", sans-serif;
     width: 16%;
     border-radius: 10%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 ul{
     margin: 0px;
@@ -24,7 +24,7 @@ img{
 }
 
 body > header{
-    background-color: orange;
+    background-color: rgb(88, 82, 82);
     color: white;
     display: flex;
     height: 20vh;
@@ -49,7 +49,7 @@ body > header > nav > ul{
     padding: 15px;
     border: 1px solid white;
     border-radius: 30%;
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(128, 112, 110);
     font-family: 'Times New Roman', Times, serif;
 }
 body > main article {
@@ -70,8 +70,8 @@ h2{
 #pic-place{
     color:black;
     text-align: center;
-    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
     
 }
 article > img{
@@ -83,13 +83,23 @@ article > img{
 }
 
 body > footer{
-    background-color: orange;
+    background-color: rgb(88, 82, 82);
     display: flex;
     height: 30vh;
 }
+
+body > footer > h2{
+    text-shadow: 3px 3px 6px black;
+    color: orange;
+    font-style: oblique;
+    display: flex;
+    margin-top: 20vh;
+}
+
 #footer-ul{
     display: flex;
     list-style: none;
+    text-shadow: 2px 2px 4px black;
     
 }
 #footer-ul > div > li{
@@ -97,21 +107,10 @@ body > footer{
     margin-top: 10px;
     border: 1px solid white;
     border-radius: 30%;
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(128, 112, 110);
     padding: 6px;
 }
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
-}
-form{
-    text-align: center;
-    background-color: rgb(191, 189, 189);
-    
-
-}
-#newsletter-title{
-    background-color: rgb(191, 189, 189);
-    height: 100px;
-    
 }
