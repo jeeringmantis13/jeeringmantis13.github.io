@@ -103,15 +103,14 @@ body > header{
     height: 20vh;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 #nav_ul{
     display: flex;
 }
 #nav_ul > li{
-    padding: 8px;
-    margin: 16px;
-    
+    padding: 15px;  
 }
 
 body > header > nav > ul{
