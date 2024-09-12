@@ -13,14 +13,13 @@ html{
     padding: 6px;
     font-family: "Fredoka One", sans-serif;
     width: 16%;
-    border: 3px solid white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     background-clip: text;
     color: transparent;
     margin-left: 25px;
-    
-
 }
 
 .sub-aside{
@@ -28,7 +27,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 18.55vw;
-    height: 478vh;
+    height: 420vh;
     border-right: 3px solid white;
     border-left: 3px solid white;
     left: 0;
@@ -61,7 +60,9 @@ html{
     left:10 ;
     border: 2px solid white;
     border-radius: 25%;
-    background-color: orange;    
+    background-color: orange;
+    z-index: 1000;
+    width: 15vw;
 }
 .skip-to{
     list-style: none;
@@ -77,7 +78,7 @@ html{
 
 #footer-base{
     display: flex; 
-    background-color: rgba(186, 169, 240, 0.957);
+    background-color: rgb(186, 169, 240);
     padding: 8px;
     margin: 0;
     width: 100vw;
@@ -96,6 +97,28 @@ img{
     border-radius: 100%;
 }
 
+#profilepic{
+    border-radius: 30%;
+    height: 150px;
+    width: 120px;
+
+}
+
+#drawing{
+    border-radius: 30%;
+    height: 20vh;
+    width: 30vw;
+    align-items: left;
+    margin-top: 5vh;
+    padding: 2px;
+}
+h6{
+    text-align: center;
+    width: 22vw;
+    margin-top: 10vh;    
+    padding: 2px;
+    align-items: right ;
+}
 body > header{
     background-color: rgb(88, 82, 82);
     color: white;
@@ -137,7 +160,30 @@ body > header > nav > ul{
 body > main article {
     width: 80%;
     margin: auto;
+    border: 1px solid black;
+    border-radius: 15%;
+    margin-top: 30px;
+    padding: 40px;
 }
+body > main article h3{
+    font-style: oblique;
+}
+
+#article-one > footer{
+    border: 2px solid black;
+    border-radius: 15%;
+    text-align: left;
+    padding: 8px;
+    max-height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+}
+#article-one h2{
+    text-decoration: underline;
+    text-align: left;
+}
+
 #guitar-pic{
     width: 18.25vw;
     height: 91.25vh;
@@ -146,7 +192,6 @@ body > main article {
     align-items: left;
     margin-top: 208vh;
     border: 2px solid black;
-    
 }
 
 
@@ -171,6 +216,11 @@ body > main article {
     color: transparent;
 }
 
+#article-two a{
+    text-decoration: none;
+    color: black;
+    margin-left:2vw;
+}
 
 #main-content{
     display: flex;
@@ -302,4 +352,58 @@ body > footer > h2{
     border-radius: 15%;
     width: 60vw;
 }
+
+#funtimes{
+    background-color: hotpink;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0%;
+}
+.flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Petals */
+  .petal {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%; /* Makes the petal circular */
+    position: absolute;
+  }
+  
+  /* Position each petal */
+  .petal1 {
+    top: 0;
+    left: 25px;
+  }
+  
+  .petal2 {
+    top: 25px;
+    left: 0;
+  }
+  
+  .petal3 {
+    top: 25px;
+    right: 0;
+  }
+  
+  .petal4 {
+    bottom: 0;
+    left: 25px;
+  }
+  
+  /* Flower center */
+  .center {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%; /* Circular center */
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
 
