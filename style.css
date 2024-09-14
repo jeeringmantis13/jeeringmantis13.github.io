@@ -27,7 +27,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 18.55vw;
-    height: 420vh;
+    height: 422vh;
     border-right: 3px solid white;
     border-left: 3px solid white;
     left: 0;
@@ -366,44 +366,5 @@ body > footer > h2{
     height: 100px;
   }
   
-  /* Petals */
-  .petal {
-    width: 50px;
-    height: 50px;
-    background-color: pink;
-    border-radius: 50%; /* Makes the petal circular */
-    position: absolute;
-  }
-  
-  /* Position each petal */
-  .petal1 {
-    top: 0;
-    left: 25px;
-  }
-  
-  .petal2 {
-    top: 25px;
-    left: 0;
-  }
-  
-  .petal3 {
-    top: 25px;
-    right: 0;
-  }
-  
-  .petal4 {
-    bottom: 0;
-    left: 25px;
-  }
-  
-  /* Flower center */
-  .center {
-    width: 30px;
-    height: 30px;
-    background-color: yellow;
-    border-radius: 50%; /* Circular center */
-    position: absolute;
-    top: 35px;
-    left: 35px;
-  }
+
 
