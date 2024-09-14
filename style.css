@@ -353,6 +353,10 @@ body > footer > h2{
     width: 60vw;
 }
 
+#privacy-policy blockquote{
+    font-style: oblique;
+}
+
 #funtimes{
     background-color: hotpink;
     border: none;
@@ -360,11 +364,3 @@ body > footer > h2{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 0%;
 }
-.flower {
-    position: relative;
-    width: 100px;
-    height: 100px;
-  }
-  
-
-
