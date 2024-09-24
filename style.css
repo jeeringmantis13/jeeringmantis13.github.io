@@ -364,3 +364,92 @@ body > footer > h2{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 0%;
 }
+.flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Petals */
+  .petal {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%; /* Makes the petal circular */
+    position: absolute;
+  }
+  
+  /* Position each petal */
+  .petal1 {
+    top: 0;
+    left: 25px;
+  }
+  
+  .petal2 {
+    top: 25px;
+    left: 0;
+  }
+  
+  .petal3 {
+    top: 25px;
+    right: 0;
+  }
+  
+  .petal4 {
+    bottom: 0;
+    left: 25px;
+  }
+  
+  /* Flower center */
+  .center {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%; /* Circular center */
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+
+#songs{
+    text-align: center;
+}
+
+#songs  h1{
+    text-decoration: underline;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    color: transparent;
+}
+
+.sec-aside{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    width: 18.55vw;
+    min-height: 100vh;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    left: 0;
+}
+
+#skipto-sec{
+    position: fixed;
+    top: 100;
+    left:10 ;
+    border: 2px solid white;
+    border-radius: 25%;
+    background-color: cyan;
+    z-index: 1000;
+    width: 15vw;
+    padding: 4px;
+}
+
+#skipto-sec h4{
+    background: linear-gradient(to right, hotpink, violet, orange, green, blue, red, orange);
+    background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    text-decoration: solid ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
